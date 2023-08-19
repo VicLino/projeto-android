@@ -63,22 +63,26 @@ a#mnav:hover {
     background-color: var(--cor5);
     border-radius: 5px;
     text-decoration: underline;
-    padding: 5px;
+    padding: 2px;
     transition: 0.2s;
 }
 
 a:hover {
-    background-color: var(--cor5);
-    color: var(--cor4);
+    background-color: var(--cor4);
+    color: var(--cor2);
     border-radius: 5px;
     text-decoration: underline;
-    padding: 5px;
+    padding: 2px;
     transition: 0.2s;
 }
 
 a.hova {
     color: var(--cor4);
     text-decoration: none;
+}
+
+a.hova:hover {
+    color: var(--cor2);
 }
 
 body {
@@ -205,5 +209,14 @@ footer {
     margin: 0px;
     text-align: center;
     color: white;
+}
+
+a.linkrdp {
     text-decoration: none;
+    color: white;
+}
+
+a.linkrdp:hover {
+    text-decoration: none;
+    color: var(--cor2);
 }
