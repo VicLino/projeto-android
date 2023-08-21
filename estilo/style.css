@@ -82,6 +82,7 @@ a.hova {
 }
 
 a.hova:hover {
+    padding: 1px;
     color: var(--cor2);
 }
 
